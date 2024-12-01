@@ -1,0 +1,137 @@
+* {
+    margin: 0px;
+    font-family: "inter";
+}
+
+#logo {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#titulo-menu-superior {
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+#texto-menu-superior {
+    margin-left: 150px;
+    margin-top: 35px;
+    padding-bottom: 100px;
+}
+
+#menu-superior {
+    color: aliceblue;
+    background-image: url(imagens/fundo-superior.svg);
+}
+
+#menu-informacional {
+    background-color: #eaece5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icone {
+    margin: 50px 0px 50px 125px;
+    padding: 25px;
+}
+
+.textoinformativo {
+    display: flex;
+    align-items: center;
+}
+
+#secaovideo {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#video {
+    margin: 50px 50px 50px 150px;
+}
+
+#titulo-video {
+    color: #247BA0;
+    margin-top: 50px;
+}
+
+#carrossel {
+    background-color: #247BA0;
+    padding: 50px;
+}
+
+#titulo-carrossel {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+#div-cards {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.card {
+    margin: 50px 0px 0px 100px;
+}
+
+#seta-esquerda {
+    display: none;
+}
+
+.seta {
+    margin-top: 20%;
+    margin-left: -80;
+    cursor: pointer;
+}
+
+#card3 {
+    display: none;
+}
+
+.seta:hover {
+    transform: translateY(-9px);
+    transition-duration: 0.35s;
+}
+
+#formulario {
+    text-align: center;
+}
+
+#titulo-formulario {
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    background-color: #eaece5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button {
+    background-color: #247BA0;
+    height: 40px;
+    width: 250px;
+    color: #eaece5;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #083f57;
+    color: #eaece5;
+    transform: translateY(-9px);
+    box-shadow: 0px 15px 20px #011b25;
+    transition-duration: 0.4s;
+}
